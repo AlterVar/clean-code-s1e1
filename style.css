@@ -27,7 +27,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.item__label, .item__input {
+.item__label, 
+.item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -35,14 +36,17 @@ body {
 .add-section__form {
   display: flex;
 }
-.todo-list, .completed-list {
+.todo-list, 
+.completed-list {
   margin: 0;
   padding: 0px;
 }
-.item, .title {
+.item, 
+.title {
   list-style:none;
 }
-.item__input, .btn {
+.item__input, 
+.btn {
   outline:none;
 }
 .btn {
@@ -115,7 +119,7 @@ body {
   font-size: 18px;
   width: 226px;
 }
-.item >  .item__input[type="text"] {
+.item > .item__input[type="text"] {
   width: 226px;
 }
 .btn.item__delete-button img {
