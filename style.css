@@ -30,7 +30,7 @@ body {
 .item__label, .item__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-section__form {
   display: flex;
@@ -116,7 +116,7 @@ body {
   width: 226px;
 }
 .item >  .item__input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .btn.item__delete-button img {
   height: 2em;
@@ -129,18 +129,18 @@ body {
 
 /* Completed */
 .completed-list#completed-tasks .item__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list .item .item__input[type="text"] {
-  display: none
+  display: none;
 }
 
 .todo-list .item.item_edit-mode .item__input[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list .item.item_edit-mode .item__label {
