@@ -88,7 +88,7 @@ body {
 }
 
 /* New Task */
-.item__label[for="add-section__title"] {
+.add-section__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -142,7 +142,7 @@ body {
   display: none;
 }
 
-.todo-list .item.item_edit-mode .item__input[type="text"] {
+.list .item.item_edit-mode .item__input[type="text"] {
   display: inline-block;
   width: 224px;
 }
