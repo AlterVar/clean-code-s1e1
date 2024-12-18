@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.hero img {
+.hero .hero__img {
   width: 100%;
 }
 .hero .hero__details {
@@ -43,11 +43,11 @@ body {
 }
 .item, 
 .title {
-  list-style:none;
+  list-style: none;
 }
 .item__input, 
 .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -122,12 +122,12 @@ body {
 .item > .item__input[type="text"] {
   width: 226px;
 }
-.btn.item__delete-button img {
+.btn.item__delete-button .item__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn.item__delete-button img:hover {
+.btn.item__delete-button .item__delete-img:hover {
   transform: rotateZ(0);
 }
 
