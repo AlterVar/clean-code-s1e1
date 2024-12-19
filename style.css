@@ -92,7 +92,7 @@ body {
   display: block;
   margin: 0 0 20px;
 }
-.item__input#add-section__title {
+.item__input.add-section__title {
   width: 318px;
 }
 
@@ -132,7 +132,7 @@ body {
 }
 
 /* Completed */
-.completed-list#completed-tasks .item__label {
+.completed-list.completed-list .item__label {
   text-decoration: line-through;
   color: #888;
 }
